@@ -21,6 +21,25 @@ CONTENTS:
 =Footer
 ----------------------------------------------------------*/
 
+body, h2, h3{
+	font-family: 'Arvo', serif;
+	color:#444;
+	font-size:1.6em;
+	background:url('../images/bg-body.gif');
+}
+.ad_container{
+	margin-bottom:20px;
+	height:100px;
+	float:right;
+}
+.container{
+	width:90%;
+	margin:30px auto;
+	padding:25px;
+	min-height:400px;
+	height:auto;	
+}
+
 .push_button{
 	position:relative;
 	width:200px;
