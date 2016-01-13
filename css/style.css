@@ -40,6 +40,7 @@ body, h2, h3{
 	height:auto;	
 }
 
+/*
 .push_button {
     display:block;
     width:50px;
@@ -58,11 +59,12 @@ body, h2, h3{
 .push_button:hover {
     background: #262626;
 }
+*/
 
-/*
 .push_button{
 	position:relative;
 	width:200px;
+	height:200px;
 	color:#FFF;
 	display:block;
 	text-decoration:none;
@@ -89,4 +91,4 @@ body, h2, h3{
     position:relative;
     top:7px;
 }
-*/
+
