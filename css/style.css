@@ -47,7 +47,7 @@ body, h2, h3{
 	display:block;
 	text-decoration:none;
 	margin:0 auto;
-	border-radius:5px;
+	border-radius:50%;
 	border:solid 1px #D94E3B;
 	background:#cb3b27;
 	text-align:center;
