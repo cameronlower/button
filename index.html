@@ -1,4 +1,4 @@
-<html id="mind">
+<html>
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -7,8 +7,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript">
-	$('#button').click(function() {
-    	$('#mind').addClass('cursor');
+	$('a').click(function() {
+    	$('body').css("cursor", "default");
 	});
 </script>
 
@@ -22,7 +22,7 @@
 <body>
 
 <section class="container">
-	<a id="button" href="" class="push_button">
+	<a href="" class="push_button">
 		Push Me
 	</a>
 </section>
