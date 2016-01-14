@@ -1,9 +1,16 @@
-<html>
+<html id="mind">
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 <title>Button</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+	$('#button').click(function() {
+    	$('#mind').addClass('cursor');
+	});
+</script>
 
 <style type="text/css">
 	.nocursor {
@@ -15,7 +22,7 @@
 <body>
 
 <section class="container">
-	<a href="" class="push_button nocursor">
+	<a id="button" href="" class="push_button">
 		Push Me
 	</a>
 </section>
