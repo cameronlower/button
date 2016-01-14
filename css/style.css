@@ -25,7 +25,6 @@ body, h2, h3{
 	font-family: 'Arvo', serif;
 	color:#444;
 	font-size:1.6em;
-	cursor:none;
 }
 .ad_container{
 	margin-bottom:20px;
@@ -59,10 +58,12 @@ body, h2, h3{
     font-size:20px;
     font-weight:bold;
 }
-.push_button:hover {
-    background: #262626;
-}
 */
+
+.push_button:hover {
+    cursor:not-allowed;
+}
+
 
 .push_button{
 	position:relative;
